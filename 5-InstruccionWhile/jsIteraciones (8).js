@@ -1,11 +1,30 @@
 function mostrar()
 {
 
-	var contador=0;
-	var positivo=0;
-	var negativo=1;
-	
-	var respuesta='si';
+	var numero;
+	var contador;
+	var positivo;
+	var negativo;
+	var respuesta;
+
+
+	contador=0;
+	positivo=0;
+	negativo=0;
+	respuesta='si';
+
+	while(respuesta != "n"){
+
+		contador++
+		numero=prompt("Ingrese numero #"+contador)
+
+
+
+	}
+
+
+
+
 
 
 document.getElementById('suma').value=positivo;
